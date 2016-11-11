@@ -45,13 +45,13 @@ Thanks
 ## Dev setup
 npm init
 npm install babel-core babel-loader --save-dev
-# For ES6/ES2015 support
+### For ES6/ES2015 support
 npm install babel-preset-es2015 --save-dev
 
-# If you want to use JSX
+### If you want to use JSX
 npm install babel-preset-react --save-dev
 
-# If you want to use experimental ES7 features
+### If you want to use experimental ES7 features
 npm install babel-preset-stage-0 --save-dev
 
 npm install babel-polyfill --save
