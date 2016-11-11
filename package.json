@@ -1,0 +1,43 @@
+{
+  "name": "pazure",
+  "version": "0.1.0",
+  "description": "sync azure easy table to local postgresql database",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --timeout 600000 --compilers js:babel-register",
+    "dev": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/railty/pazure.git"
+  },
+  "author": "Shawn Ning",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/railty/pazure/issues"
+  },
+  "homepage": "https://github.com/railty/pazure#readme",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "imports-loader": "^0.6.5",
+    "mocha": "^3.1.2",
+    "should": "^11.1.1"
+  },
+  "dependencies": {
+    "azure-mobile-apps-client": "^2.0.0-rc1",
+    "immediate": "^3.2.3",
+    "json-loader": "^0.5.4",
+    "noop-fn": "^1.0.0",
+    "pg": "^6.1.0",
+    "pg-pool": "^1.5.0",
+    "sqlite3": "^3.1.8",
+    "tiny-queue": "^0.2.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
